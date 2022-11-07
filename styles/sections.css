@@ -1,0 +1,17 @@
+/* Styles for page content, including the project sections, the about sections, etc */
+
+.section {
+
+    
+}
+
+.section-header {
+    border-bottom: solid;
+    border-top: none;
+}
+
+.section-header h1 {
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 50px;
+}
