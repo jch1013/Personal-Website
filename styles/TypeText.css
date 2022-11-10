@@ -3,6 +3,7 @@ body {
     padding: 0px;
     display: flex;
     flex-direction: column;
+    font-family:'Courier New', Courier, monospace;
 
 }
 .first-view {
@@ -12,12 +13,10 @@ body {
     height: 100vh;
     padding-top: calc(0.2 * 100vh);
     background-color: rgb(221, 221, 221);
-    border: solid;
 }
 
 .written {
     padding-left: 50px;
-    font-family: "Courier New";
     font-size: min(5vh, 3vw, 60px);
     
 }

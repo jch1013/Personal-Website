@@ -6,12 +6,21 @@
 }
 
 .section-header {
-    border-bottom: solid;
-    border-top: none;
+    border: none;
 }
 
 .section-header h1 {
     color: black;
-    font-family:'Courier New', Courier, monospace;
     padding-left: 50px;
+}
+
+.skill {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill img {
+    width: 25vw;
+    height: auto;
 }
