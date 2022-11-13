@@ -1,7 +1,7 @@
 /* Styles for page content, including the project sections, the about sections, etc */
 
 .section {
-
+    
     
 }
 
@@ -18,6 +18,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10vh;
 }
 
 .skill img {
