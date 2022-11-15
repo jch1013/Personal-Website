@@ -18,10 +18,23 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 10vh;
 }
 
 .skill img {
     width: 25vw;
+    height: auto;
+}
+
+.content-line {
+    display: flex;
+    align-items: center;
+    font-size: max(2vw, 1em);
+}
+
+.content-line img {
+    
+    width: 10%;
     height: auto;
 }
