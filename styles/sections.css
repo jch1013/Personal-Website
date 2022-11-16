@@ -20,9 +20,12 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10vh;
+    border: solid;
 }
 
-.skill img {
+
+
+.section-image img{
     width: 25vw;
     height: auto;
 }
