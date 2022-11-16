@@ -28,6 +28,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .section-image img{
@@ -40,9 +42,15 @@
 .content-line {
     display: flex;
     align-items: center;
-    justify-content: center;
+    border: solid;
     font-size: max(2vw, 1em);
+    width: 100%;
 
+}
+
+.content-line p {
+    border: solid;
+    margin-left: 15px;
 }
 
 .content-line img {
