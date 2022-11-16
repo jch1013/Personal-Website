@@ -12,44 +12,45 @@
 .section-header h1 {
     color: black;
     padding-left: 50px;
+    
 }
 
 .skill {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-bottom: 10vh;
-    border: solid;
 }
 
+
 .section-content {
-    border: solid;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 5vw;
     margin-right: 5vw;
+    width: 30vw;
+
 }
 
 .section-image img{
-    border: solid;
+
     width: 25vw;
     height: auto;
-    margin: 5vw;
+    margin: 5vw
 }
 
-.content-line {
+.content-line, .section-content h3 {
     display: flex;
     align-items: center;
-    border: solid;
     font-size: max(2vw, 1em);
     width: 100%;
 
 }
 
 .content-line p {
-    border: solid;
     margin-left: 15px;
 }
 
@@ -57,4 +58,9 @@
     
     width: 10%;
     height: auto;
+}
+
+#framework {
+    display: flex;
+    justify-content: right;
 }
