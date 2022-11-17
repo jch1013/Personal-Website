@@ -5,4 +5,34 @@
     background-color: rgb(221, 221, 221);
     padding-bottom: 20vh;
     padding-top: 10vh;
+
+}
+
+.contact-information {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: solid;
+
+}
+
+#github img, #linkedin img {
+    width: 3vw;
+    height: 3vw;
+}
+
+#email img {
+    width: 3vw;
+    height: 2vw;
+}
+
+.contact-information p {
+    border: none;
+}
+
+#github, #email, #linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
 }
