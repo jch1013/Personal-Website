@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jackson Hayward</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script src="scripts/TypeText.js" defer></script>
     <link href="styles/TypeText.css" rel="stylesheet">
     <link href="styles/sections.css" rel="stylesheet">
     <link href="styles/contact.css" rel="stylesheet">
+    <link href="styles/about.css" rel="stylesheet">
 </head>
 <body>
 
@@ -110,11 +114,21 @@
         <div class="section-header" id="about-header">
             <h1>About Me</h1>
         </div>
+        <div id="profile-image">
+            <img src="images/temp.jpeg" id="profile-picture">
+        </div>
         <div class="professional">
             <div class="professional-content" id="education"></div>
             <div class="professional-content" id="future-goals"></div>
         </div>
-        <div class="personal"></div>
+        <div class="accordion">
+            <h1>test</h1>
+            <div id="hobby-1"></div>
+            <h2>another test</h2>
+            <div id="hobby-2"></div>
+            <h3>the final test</h3>
+            <div id="hobby-3"></div>
+        </div>
     </div>
     <div class="section" id="contact">
         <div class="section-header" id="contact-header">
@@ -134,5 +148,10 @@
         </div>
     </div>
 
+
+
+    <script>$(".accordion").accordion({
+        "collapsible": true
+    });</script>
 </body>
 </html>
