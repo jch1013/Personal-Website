@@ -16,3 +16,21 @@
     width: 75vw;
 }
 
+
+#contact-header h1{
+    padding: 0px;
+}
+
+#about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#hobbies {
+    width: 75vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+

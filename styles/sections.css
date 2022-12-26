@@ -2,15 +2,27 @@
 
 
 
-.section-header {
-
-
-}
-
 .section-header h1 {
     color: black;
     padding-left: 50px;
     
+}
+
+.project-content {
+    border: solid;
+    display: flex;
+    justify-content: center;
+}
+
+.my-slider {
+    border: solid;
+    height: 50vh;
+
+}
+
+.my-slider img {
+    width: 60%;
+    height: auto;
 }
 
 .skill {
@@ -41,6 +53,8 @@
     margin-left: 5vw;
     margin-right: 5vw;
     width: 30vw;
+    border: solid;
+    background-color: pink;
 
 }
 
@@ -73,3 +87,4 @@
     display: flex;
     justify-content: right;
 }
+
