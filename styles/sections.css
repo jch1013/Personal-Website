@@ -8,21 +8,42 @@
     
 }
 
+div.tns-item, p.tns-item {
+    text-align: center;
+}
+
 .project-content {
-    border: solid;
     display: flex;
     justify-content: center;
+
 }
 
 .my-slider {
-    border: solid;
-    height: 50vh;
+    height: auto;
+    min-height: 50vh;
+    display: flex;
 
 }
 
 .my-slider img, .my-slider p {
     width: 60%;
     height: auto;
+}
+
+.my-slider p {
+    width: 100%;
+
+}
+
+.slider-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-buttons button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .skill {
