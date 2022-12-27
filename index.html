@@ -44,6 +44,11 @@
                         this project equates hours of exposure to a specific air quality with an equivalent 
                         number of cigarettes smoked. This project uses HTML, CSS and JavaScript.
                     </p>
+                    <div class="slider-buttons" id="aqi-buttons">
+                        <form action="https://google.com">
+                            <button type="submit" value="">View on Github</button>
+                        </form>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -159,7 +164,10 @@
             <div class="accordion" id="hobbies">
                 <h1>Backpacking</h1>
                 <div id="hobby-1">
-                    <img src="images/temp.jpeg">
+                    <div class="hobby-card" id="backpacking">
+                        <img src="images/temp.jpeg">
+                        <p>write some stuff about backpacking here</p>
+                    </div>
                 </div>
                 <h2>Astronomy</h2>
                 <div id="hobby-2"></div>
@@ -195,7 +203,7 @@
             container: ".my-slider",
             items: 1,
             slideBy: "page",
-            autoplay: true,
+            autoplay: false,
             autoplayButtonOutput: false,
             loop: true,
             mouseDrag: true,

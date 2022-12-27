@@ -20,7 +20,7 @@
 
 }
 
-.my-slider img {
+.my-slider img, .my-slider p {
     width: 60%;
     height: auto;
 }
@@ -53,8 +53,6 @@
     margin-left: 5vw;
     margin-right: 5vw;
     width: 30vw;
-    border: solid;
-    background-color: pink;
 
 }
 

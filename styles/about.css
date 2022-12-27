@@ -34,3 +34,13 @@
     margin-bottom: 50px;
 }
 
+.hobby-card {
+    width: 75%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.hobby-card img {
+    width: 100%;
+    height: auto;
+}
+
