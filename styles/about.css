@@ -37,6 +37,9 @@
 .hobby-card {
     width: 75%;
     font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hobby-card img {
@@ -44,3 +47,7 @@
     height: auto;
 }
 
+.hobby-container {
+    display: flex;
+    justify-content: center;
+}
